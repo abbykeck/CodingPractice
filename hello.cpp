@@ -4,6 +4,7 @@ using namespace std; // putting the namespace here means we don't have to put st
 
 int main() {
 	string userName; // std::string don't use name since that's in namespace std
+	cout << "(With using namespace)" << endl;
 	cout << "Hi! Please enter your name: "; //std::cout
 	// << is the output operator, cout (console output) is an object
 	cin >> userName; //std::cin
