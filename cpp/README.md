@@ -11,3 +11,4 @@ classDiagram
         - Critter driver;
     }
 ```
+* remember to use -g when compiling for debugger and valgrind (check for memory leaks)
